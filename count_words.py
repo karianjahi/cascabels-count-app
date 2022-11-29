@@ -68,6 +68,7 @@ class WordCounter:
             str
         """
         soup = BeautifulSoup(text, "html.parser")
+        print(joseph)
         return soup.text
         
 
