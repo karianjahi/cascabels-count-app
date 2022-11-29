@@ -6,12 +6,15 @@
    - The purpose of the yaml file is to trigger github actions where the code is run and if there are problems, github sends a signal to the contributors.
 **flake8**: Checks the formatting of the python code
 
-- To get all your modules in the `venv` to `requirements.txt` run the following:
+2. To get all your modules in the `venv` to `requirements.txt` run the following:
   `pip freeze > requirements.txt`
 
-1.1. **Liniting**
+3. **Liniting**
 Python has a convention where it is advisable to format your code to conform to. It is called the PEP-convention. There are modules that can assist to detect code smells (unconventional but running python code) e.g. `pylint`. We are going to use `pylint` to detect these code smells.
 To install pylint:
     `pip install pylint`
 
-1. We need to populate the yml file with the required files and/or architecture and then push the code
+4. We need to populate the yml file with the required files and/or architecture and then push the code
+
+5. **Adding a badge**
+   
